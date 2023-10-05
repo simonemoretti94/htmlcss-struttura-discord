@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+:root {
+    --back-header: rgb(123, 255, 255);
+    --back-row-header: rgb(255, 184, 52);
+    --back-first-submain-blue: rgb(0, 0, 210);
+    --back-rectangle-purple: rgb(202, 102, 202);
+    --back-second-fourth-submain-light: rgb(250, 235, 235);
+    --back-third-fifth-submain-grey: rgb(177, 177, 177);
+    --back-sixth-submain-footer-black: black;
+    --back-rectangle-blue: rgb(28, 96, 243);
+    --back-rectangle-pink: rgb(249, 200, 208);
+    --back-rectangle-green: rgb(1, 121, 1);
+    --back-narrow-rectangles-blue: rgb(78, 185, 217);
+    --back-footer-row-aqua: rgb(51, 248, 248);
+    --back-footer-buttons: rgb(193, 193, 193);
+}
+
+.debug header {
+    background-color: var(--back-header);
+    border: dashed 1px rgb(50, 50, 255);
+}
+
+.debug .row-header {
+    background-color: var(--back-row-header);
+    border: dashed 1px rgb(50, 50, 255);
+}
+
+.debug .header-logo {
+    border: dashed 1px rgb(50, 50, 255);
+}
+
+.debug .header-login {
+    border: dashed 1px rgb(50, 50, 255);
+}
+
+.debug .col1 {
+    border: dashed 1px rgb(50, 50, 255);
+}
+
+.debug .first-submain-blue {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: var(--back-first-submain-blue);
+    border: dashed 1px rgb(50, 50, 255);
+}
+
+.debug .rectangle-purple1{
+    background-color: var(--back-rectangle-purple);
+    border: dashed 1px rgb(50, 50, 255);
+}
+
+.debug .second-fourth-submain {
+    display: flex;
+    height: 400px;
+    font-variant: var(--back-second-fourth-submain-light);
+    border: dashed 1px rgb(50, 50, 255);
+}
+
+.debug .rectangle-blue {
+    background-color: var(--back-rectangle-blue);
+    border: dashed 1px rgb(50, 50, 255);
+}
+
+.debug .rectangle-pink {
+    background-color: var(--back-rectangle-pink);
+    border: dashed 1px rgb(50, 50, 255);
+}
+
+.debug .third-fifth-submain {
+    height: 400px;
+    display: flex;
+    background-color: var(--back-third-fifth-submain-grey);
+    border: dashed 1px rgb(50, 50, 255);
+}
+
+.debug .rectangle-green {
+   background-color: var(--back-rectangle-green);
+   border: dashed 1px rgb(50, 50, 255); 
+}
+
+.debug .sixth-submain {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background-color: var(--back-sixth-submain-footer-black);
+    border-top: dashed 1px rgb(50, 50, 255);
+    border-bottom: solid 2px white;
+
+}
+
+.debug .rectangle-purple2 {
+    background-color: var(--back-rectangle-purple);
+    border: dashed 1px rgb(50, 50, 255);
+}
+
+.debug .narrow-rectangles-blue {
+    background-color: var(--back-narrow-rectangles-blue);
+    border: dashed 1px rgb(50, 50, 255);
+}
+
+.debug footer {
+    background-color: var(--back-sixth-submain-footer-black);
+}
+
+
+.debug .footer-row {
+    background-color: var(--back-footer-row-aqua);
+    border: dashed 1px rgb(50, 50, 255);
+}
+
+.debug .footer-logo {
+    height: 50%;
+    background-color: var(--back-footer-buttons);
+    border: dashed 1 px black;
+}
+
+.debug .footer-bottone {
+    height: 50%;
+    background-color: var(--back-footer-buttons);
+    border: dashed 1px black;
+}
+
+
+
+/*CONTAINER*/
+
+/* .container {
+    display: flex;
+} */
+
+/* HEADER */
+body {
+    max-width: 1550px;
+    min-width: 110px;
+}
+
+.row-header {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+
+.header-logo {
+    margin: auto;
+    width: calc((100%/12)*1);
+    text-align: left;
+}
+
+.header-login {
+    margin: auto;
+    width: calc((100%/12)*1);
+    text-align: right;
+}
+
+.col1 {
+    margin: auto;
+    width: calc((100%/12)*2);
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.rectangle-purple1 {
+    width: 50%;
+    height: 80%;
+    margin: auto;
+}
+
+.rectangle-blue {
+    height: 80%;
+    margin: auto;
+}
+
+.rectangle-pink {
+    height: 80%;
+    margin: auto;
+}
+
+.rectangle-green {
+    height: 80%;
+    width: 50%;
+    margin: auto;
+}
+
+.rectangle-purple2 {
+    width: calc((100%/12)*2);
+    height: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.narrow-rectangles-blue {
+    width: calc((100%/12)*1);
+    height: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    width: 80%;
+    margin: auto auto 0 auto;
+}
+
+.footer-logo {
+    height: 50%;
+    color: black;
+    padding: 5px 7px 5px 7px;
+}
+
+.footer-bottone {
+    height: 50%;
+    color: black;
+    padding: 5px 7px 5px 7px;
+}
